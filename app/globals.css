@@ -77,6 +77,10 @@ body {
   background-image: linear-gradient(135deg, #1D1C1A 0%, #252220 50%, #2E2925 100%);
 }
 
+@utility bg-hero-ai {
+  background-image: url('/ai_network_bg.png');
+}
+
 @utility bg-gradient-card {
   background-image: linear-gradient(180deg, #FFFFFF 0%, #FCFBF8 100%);
 }

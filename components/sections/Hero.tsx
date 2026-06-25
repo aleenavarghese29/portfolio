@@ -34,10 +34,7 @@ export function Hero() {
   return (
     <section id="home" className="relative min-h-[90vh] flex items-center justify-center overflow-hidden py-20 bg-gradient-hero">
       {/* AI Network Background */}
-      <div 
-        className="absolute inset-0 z-0 opacity-15 dark:opacity-20 mix-blend-overlay pointer-events-none"
-        style={{ backgroundImage: "url('/ai_network_bg.png')", backgroundSize: "cover", backgroundPosition: "center" }}
-      ></div>
+      <div className="absolute inset-0 z-0 bg-hero-ai bg-cover bg-center opacity-15 dark:opacity-20 mix-blend-overlay pointer-events-none"></div>
 
       {/* Animated Blobs Background */}
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-[var(--color-accent-primary)]/20 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob dark:bg-[var(--color-accent-primary)]/10 dark:mix-blend-normal"></div>
