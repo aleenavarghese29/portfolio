@@ -7,7 +7,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
 
-const FloatingLabelInput = ({ id, label, type = "text", value, onChange, error }: any) => (
+const FloatingLabelInput = ({ id, label, type = "text", value, onChange, error }: { id: string, label: string, type?: string, value: string, onChange: (e: React.ChangeEvent<HTMLInputElement>) => void, error?: string }) => (
   <div className="relative mb-6">
     <input
       type={type}

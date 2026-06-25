@@ -19,7 +19,7 @@ export function Footer() {
 
         <div className="flex flex-col items-center gap-2">
           <p className="text-xs text-[var(--color-text-muted)] flex items-center gap-1 italic">
-            "Every setback became a lesson. Every lesson became progress."
+            &quot;Every setback became a lesson. Every lesson became progress.&quot;
           </p>
         </div>
 
