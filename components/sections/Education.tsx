@@ -48,7 +48,7 @@ export function Education() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
-              className="relative pl-12 md:pl-0 mb-12 last:mb-0"
+              className="relative pl-16 md:pl-0 mb-12 last:mb-0"
             >
               <div className="md:grid md:grid-cols-5 gap-8 items-center">
                 
@@ -61,8 +61,8 @@ export function Education() {
                 </div>
 
                 {/* Mobile Timeline Line */}
-                <div className="md:hidden absolute left-0 top-2 bottom-[-3rem] last:bottom-0 w-px bg-gradient-to-b from-[var(--color-accent-primary)]/50 via-[var(--color-border-default)] to-transparent dark:from-[var(--color-accent-primary)]/30 dark:via-[var(--color-border-dark)]" />
-                <div className="md:hidden absolute left-[-16px] top-0 w-8 h-8 rounded-full bg-[var(--color-bg-linen)] dark:bg-[#1A1917] border-2 border-[var(--color-accent-primary)] flex items-center justify-center text-[var(--color-accent-primary)]">
+                <div className="md:hidden absolute left-4 top-2 bottom-[-3rem] last:bottom-0 w-px bg-gradient-to-b from-[var(--color-accent-primary)]/50 via-[var(--color-border-default)] to-transparent dark:from-[var(--color-accent-primary)]/30 dark:via-[var(--color-border-dark)]" />
+                <div className="md:hidden absolute left-0 top-0 w-8 h-8 rounded-full bg-[var(--color-bg-linen)] dark:bg-[#1A1917] border-2 border-[var(--color-accent-primary)] flex items-center justify-center text-[var(--color-accent-primary)] z-10">
                   <GraduationCap className="w-4 h-4" />
                 </div>
 

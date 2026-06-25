@@ -46,7 +46,7 @@ export function Experience() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.6 }}
-              className="relative pl-12 md:pl-0"
+              className="relative pl-16 md:pl-0"
             >
               <div className="md:grid md:grid-cols-5 gap-8 items-start">
                 
@@ -59,8 +59,8 @@ export function Experience() {
                 </div>
 
                 {/* Mobile Timeline Line */}
-                <div className="md:hidden absolute left-0 top-2 bottom-0 w-px bg-gradient-to-b from-[var(--color-accent-primary)]/50 via-[var(--color-border-default)] to-transparent dark:from-[var(--color-accent-primary)]/30 dark:via-[var(--color-border-dark)]" />
-                <div className="md:hidden absolute left-[-4px] top-2 w-2 h-2 rounded-full bg-[var(--color-accent-primary)] ring-4 ring-[var(--color-bg-linen)] dark:ring-[#1A1917]" />
+                <div className="md:hidden absolute left-4 top-2 bottom-0 w-px bg-gradient-to-b from-[var(--color-accent-primary)]/50 via-[var(--color-border-default)] to-transparent dark:from-[var(--color-accent-primary)]/30 dark:via-[var(--color-border-dark)]" />
+                <div className="md:hidden absolute left-3 top-2 w-2 h-2 rounded-full bg-[var(--color-accent-primary)] ring-4 ring-[var(--color-bg-linen)] dark:ring-[#1A1917] z-10" />
 
                 {/* Left Side: Date & Company (Desktop) */}
                 <div className="md:col-span-1 md:text-right pt-2 mb-4 md:mb-0">
