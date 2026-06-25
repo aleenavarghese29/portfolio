@@ -46,9 +46,9 @@ export function Experience() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.6 }}
-              className="relative pl-8 md:pl-0"
+              className="relative pl-12 md:pl-0"
             >
-              <div className="md:grid md:grid-cols-5 gap-8 items-start relative">
+              <div className="md:grid md:grid-cols-5 gap-8 items-start">
                 
                 {/* Timeline Line & Dot (Desktop) */}
                 <div className="hidden md:flex flex-col items-center justify-center col-span-1 absolute left-[19.5%] top-0 bottom-0">
