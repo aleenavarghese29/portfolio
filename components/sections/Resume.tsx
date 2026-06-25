@@ -30,12 +30,12 @@ export function Resume() {
           className="max-w-4xl mx-auto bg-[var(--color-card-light)] dark:bg-[var(--color-card-dark)] rounded-3xl p-6 md:p-10 border border-[var(--color-border-default)] dark:border-[var(--color-border-dark)] shadow-medium"
         >
           <div className="flex flex-col md:flex-row items-center justify-between gap-6 mb-8 pb-8 border-b border-[var(--color-border-default)] dark:border-[var(--color-border-dark)]">
-            <div className="flex items-center gap-4">
+            <div className="flex flex-col md:flex-row items-center gap-4 text-center md:text-left">
               <div className="p-4 rounded-2xl bg-[var(--color-bg-linen)] dark:bg-[#1A1917] text-[var(--color-accent-primary)]">
                 <FileText className="w-8 h-8" />
               </div>
               <div>
-                <h4 className="text-2xl font-bold text-[var(--color-text-heading)] dark:text-white">Aleena_Varghese_CV.pdf</h4>
+                <h4 className="text-xl md:text-2xl font-bold text-[var(--color-text-heading)] dark:text-white break-all md:break-normal">Aleena_Varghese_CV.pdf</h4>
                 <p className="text-[var(--color-text-muted)]">AI Engineer & Data Scientist</p>
               </div>
             </div>
