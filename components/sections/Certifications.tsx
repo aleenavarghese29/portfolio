@@ -40,6 +40,12 @@ const certifications = [
     icon: <Cloud className="w-6 h-6" />,
     link: "https://www.cloudskillsboost.google/public_profiles/f70197f3-b664-4fdf-a00e-d877ddf46be9/badges/13617566",
   },
+  {
+    title: "Introduction to Git and GitHub",
+    issuer: "Google (Coursera)",
+    icon: <Code className="w-6 h-6" />,
+    link: "#",
+  },
 ];
 
 export function Certifications() {

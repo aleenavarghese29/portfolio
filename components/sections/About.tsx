@@ -7,7 +7,7 @@ const stats = [
   { label: "AI Projects Built", value: 12, suffix: "+" },
   { label: "Months Internship Experience", value: 3, suffix: "" },
   { label: "CGPA (M.Sc.)", value: 9.12, suffix: "" },
-  { label: "AI Certifications", value: 6, suffix: "+" },
+  { label: "AI Certifications", value: 7, suffix: "+" },
 ];
 
 function AnimatedCounter({ value, suffix }: { value: number; suffix: string }) {
