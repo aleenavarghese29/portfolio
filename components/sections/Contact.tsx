@@ -107,10 +107,11 @@ export function Contact() {
       } else {
         throw new Error(result.message || "Failed to send message");
       }
-    } catch (error) {
-      console.error(error);
-      setSubmitError("Failed to send message. Please try again later.");
-      toast.error("Failed to send message. Please try again later.");
+    } catch (error: any) {
+      console.error("Submission error:", error);
+      const errorMessage = error instanceof Error ? error.message : "Failed to send message. Please try again later.";
+      setSubmitError(errorMessage);
+      toast.error(errorMessage);
     } finally {
       setIsSubmitting(false);
     }
