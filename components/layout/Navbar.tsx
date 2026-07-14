@@ -80,7 +80,7 @@ export function Navbar() {
               <Moon className="h-5 w-5 block dark:hidden text-[var(--color-primary-charcoal)]" />
             </button>
             <Button asChild variant="default" size="sm" className="gap-2">
-              <a href="/resume/resume.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="/resume/Aleena_Varghese_Resume.pdf" target="_blank" rel="noopener noreferrer">
                 <Download className="h-4 w-4" />
                 Resume
               </a>
@@ -130,7 +130,7 @@ export function Navbar() {
               ))}
               <div className="pt-4 border-t border-[var(--color-border-default)] dark:border-[var(--color-border-dark)]">
                 <Button asChild variant="default" className="w-full justify-center gap-2">
-                  <a href="/resume/resume.pdf" target="_blank" rel="noopener noreferrer">
+                  <a href="/resume/Aleena_Varghese_Resume.pdf" target="_blank" rel="noopener noreferrer">
                     <Download className="h-4 w-4" />
                     Download Resume
                   </a>
