@@ -9,13 +9,13 @@ const experienceData = [
     role: "AI Engineer Intern",
     company: "Lightrains Technolabs",
     location: "Thiruvananthapuram, Kerala (Remote)",
-    period: "March 2026 – May 2026",
+    period: "March 2026 – June 2026",
     technologies: ["FastAPI", "Next.js", "LightRAG", "MinerU", "PydanticAI", "RAGAnything", "VLM", "OpenAI"],
     achievements: [
-      "Engineered a production-grade Multimodal Diagnostic Assistant orchestrating an 8-stage AI diagnostic pipeline.",
-      "Built an advanced RAG pipeline integrating knowledge graph retrieval, vector search, and MinerU document parsing.",
-      "Implemented Vision-Language Model (VLM)-based visual grounding and semantic image indexing to deliver context-aware diagrams.",
-      "Designed robust AI safety guardrails, contextual memory, and confidence validation to ensure reliable diagnostic recommendations.",
+      "Engineered a production-grade multimodal AI assistant using Python, FastAPI, OpenAI APIs, and Retrieval-Augmented Generation (RAG) to enable accurate natural language question answering over technical manuals.",
+      "Designed and implemented an end-to-end RAG pipeline integrating document parsing, knowledge graphs, embeddings, vector search, contextual retrieval, and prompt engineering to improve response relevance and groundedness.",
+      "Built multimodal retrieval workflows using Vision Language Models (VLMs) for semantic image retrieval and visual grounding, enabling intelligent understanding of technical diagrams alongside textual documentation.",
+      "Developed production AI workflows including contextual memory, response validation, AI safety guardrails, confidence scoring, and API integration to improve reliability, explainability, and user experience.",
     ],
   },
 ];

@@ -9,10 +9,26 @@ import { Badge } from "@/components/ui/badge";
 const projects = [
   {
     title: "HR Assistant System",
-    description: "An AI-powered HR assistant using Django, React, TypeScript, and Llama 3.3 to automate payroll, leave, policy, and document queries. Features a secure 9-stage AI orchestration pipeline with intent classification.",
+    description: "An AI-powered HR Assistant built with Django, React, and Llama 3.3 to automate employee queries. Features a contextual AI chatbot with role-aware responses, secure REST APIs, and comprehensive audit logging.",
     image: "/projects/hr_assistant.png",
-    technologies: ["React", "TypeScript", "Django", "Python", "Llama 3.3"],
+    technologies: ["Django", "React", "TypeScript", "Llama 3.3", "SQLite"],
     github: "https://github.com/aleenavarghese29/hr-assistant-system",
+    demo: "#",
+  },
+  {
+    title: "LLM-powered AI Gmail Assistant",
+    description: "An AI-powered Gmail assistant built with LangChain, Gemini 2.5 Flash, and RAG to answer natural language questions. Features semantic retrieval using ChromaDB, email summarization, categorization, and an end-to-end Streamlit interface.",
+    image: "/projects/chatbot.png",
+    technologies: ["Python", "LangChain", "Google Gemini", "ChromaDB", "Streamlit"],
+    github: "https://github.com/aleenavarghese29/AIGmailChatbot",
+    demo: "#",
+  },
+  {
+    title: "SignBot – Sign Language Recognition",
+    description: "A real-time Sign Language Recognition system utilizing OpenAI CLIP and SVM for gesture classification. Integrates Gemini AI and TTS to generate context-aware voice responses, improving accessibility through an end-to-end inference pipeline.",
+    image: "/projects/signbot.png",
+    technologies: ["Python", "OpenAI CLIP", "SVM", "Google Gemini AI", "Streamlit"],
+    github: "https://github.com/aleenavarghese29/signbot",
     demo: "#",
   },
   {
@@ -24,27 +40,11 @@ const projects = [
     demo: "#",
   },
   {
-    title: "SignBot – Sign Language Recognition",
-    description: "A real-time Sign Language Recognition system using OpenAI CLIP and an SVM classifier to convert hand gestures into text. Integrates Google Gemini AI and Text-to-Speech (TTS) for context-aware voice responses.",
-    image: "/projects/signbot.png",
-    technologies: ["Python", "OpenCV", "SVM", "CLIP", "Gemini AI"],
-    github: "https://github.com/aleenavarghese29/signbot",
-    demo: "#",
-  },
-  {
     title: "Age, Gender, and Emotion Prediction",
-    description: "CNN-based deep learning models to predict age, gender, and facial emotions from images. Features end-to-end training, evaluation, and inference pipelines achieving robust facial attribute recognition.",
+    description: "CNN-based deep learning models trained on UTKFace and FER2013 datasets to predict age, gender, and facial emotions. Includes complete pipelines for data preprocessing, training, and real-time inference using TensorFlow and OpenCV.",
     image: "/projects/emotion_prediction.png",
-    technologies: ["Python", "CNN", "TensorFlow/Keras", "OpenCV"],
+    technologies: ["Python", "TensorFlow", "Keras", "OpenCV"],
     github: "https://github.com/aleenavarghese29/Age-Gender-Emotion-Prediction",
-    demo: "#",
-  },
-  {
-    title: "AI Gmail Chatbot (RAG Based)",
-    description: "Cleaned and prepared Gmail data for retrieval using embedding-based indexing. Built a Retrieval-Augmented Generation (RAG) pipeline using LangChain and ChromaDB. Implemented basic rule-based email categorization and generated responses using LLM APIs.",
-    image: "/projects/chatbot.png",
-    technologies: ["Python", "LangChain", "ChromaDB", "Gmail API", "Gemini API", "Streamlit"],
-    github: "https://github.com/aleenavarghese29/AIGmailChatbot",
     demo: "#",
   },
   {
