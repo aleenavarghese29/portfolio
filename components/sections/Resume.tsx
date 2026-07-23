@@ -40,7 +40,7 @@ export function Resume() {
               </div>
             </div>
             <Button asChild size="lg" className="gap-2 w-full md:w-auto">
-              <a href="/resume/Aleena_Varghese_Resume.pdf" target="_blank" rel="noopener noreferrer" download="Aleena_Varghese_Resume.pdf">
+              <a href="/resume/Aleena-Varghese-Resume.pdf" target="_blank" rel="noopener noreferrer" download="Aleena-Varghese-Resume.pdf">
                 <Download className="w-5 h-5" />
                 Download PDF
               </a>
@@ -50,7 +50,7 @@ export function Resume() {
           {/* PDF Preview Container */}
           <div className="w-full aspect-[1/1.4] md:aspect-[1/1.2] lg:aspect-[1/1] bg-[var(--color-bg-linen)] dark:bg-[#1A1917] rounded-2xl overflow-hidden border border-[var(--color-border-default)] dark:border-[var(--color-border-dark)] shadow-inner relative">
             <iframe 
-              src="/resume/Aleena_Varghese_Resume.pdf#toolbar=0" 
+              src="/resume/Aleena-Varghese-Resume.pdf#toolbar=0" 
               className="w-full h-full absolute inset-0"
               title="Resume Preview"
             />
