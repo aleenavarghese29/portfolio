@@ -6,20 +6,20 @@ import { Badge } from "@/components/ui/badge";
 
 const experienceData = [
   {
-    role: "Associate AI Developer",
+    role: "Associate AI Developer Intern",
     company: "LamaxAI Technologies Pvt. Ltd.",
     location: "Remote, Kerala",
     period: "August 2026 – Present",
     current: true,
-    technologies: ["Python", "RAG", "Qdrant", "n8n", "LLMs", "Ollama", "Docker", "Markdown", "Vector Search"],
-    handsOn: ["Python", "RAG Architectures", "Qdrant Vector DB", "n8n Automation", "Markdown Knowledge Bases", "Embeddings & Chunking"],
-    exploring: ["Ollama (Local LLMs)", "Docker Deployment", "Agentic Workflows"],
+    technologies: ["Python", "RAG", "Vector Databases", "Workflow Automation", "LLMs", "Embeddings", "Docker", "Markdown"],
+    handsOn: ["Python", "RAG Architectures", "Vector Databases", "Workflow Automation", "Knowledge Bases", "Embeddings & Chunking"],
+    exploring: ["Local LLMs", "Container Deployment", "Agentic Systems"],
     achievements: [
-      "Contribute to AI application and workflow development, designing and deploying AI-powered chatbots with Retrieval-Augmented Generation (RAG) architectures.",
-      "Prepare, curate, and review Markdown knowledge-base content, implementing chunking strategies, embeddings, and vector database integration with Qdrant for semantic storage and high-precision retrieval.",
-      "Build and automate end-to-end AI workflows in n8n, integrating webhook-triggered automation, cloud LLM APIs, and local LLMs via Ollama.",
-      "Perform continuous quality review, response validation, and hallucination testing on chatbot behaviors to improve retrieval accuracy and user experience.",
-      "Support comprehensive technical documentation, structured knowledge management, and research on production AI deployment patterns.",
+      "Contribute to AI application and workflow development, designing and developing AI-powered chatbots using Retrieval-Augmented Generation (RAG) architectures.",
+      "Prepare, curate, and validate structured knowledge-base content, applying effective document processing, chunking strategies, embedding generation, and vector database integration to support semantic search and accurate information retrieval.",
+      "Develop and automate end-to-end AI workflows, connecting webhooks, language models, APIs, and external services to support business process automation.",
+      "Conduct continuous quality reviews, response validation, and hallucination testing to improve chatbot accuracy, retrieval relevance, and overall user experience.",
+      "Support technical documentation, structured knowledge management, and research into reliable AI deployment practices.",
     ],
   },
   {

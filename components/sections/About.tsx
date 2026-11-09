@@ -72,13 +72,10 @@ export function About() {
             className="space-y-6 text-lg text-[var(--color-text-body)] dark:text-[var(--color-text-muted)] leading-relaxed"
           >
             <p>
-              My path into artificial intelligence unites mathematical analytical foundations with applied software engineering. Having graduated with a <strong>B.Sc. in Mathematics</strong> from Mar Ivanios College and currently pursuing an <strong>M.Sc. in Computer Science (Data Analytics)</strong> at Digital University Kerala (CGPA 9.12), I transform complex data and research into dependable AI solutions.
+              My path into artificial intelligence combines strong mathematical and analytical foundations with applied software engineering. I graduated with a <strong>B.Sc. in Mathematics</strong> from Mar Ivanios College and completed my <strong>M.Sc. in Computer Science (Data Analytics) at Digital University Kerala in 2026, with a CGPA of 9.12</strong>. I enjoy transforming complex data, research, and technical concepts into practical and reliable AI solutions.
             </p>
             <p>
-              Currently working as an <strong>Associate AI Developer</strong> at LamaxAI Technologies, I specialize in <strong>Retrieval-Augmented Generation (RAG)</strong>, vector database integration with <strong>Qdrant</strong>, knowledge-base structuring, and AI workflow automation with <strong>n8n</strong>. Previously, as an AI Engineer Intern at Lightrains Technolabs, I contributed to multimodal RAG architectures and knowledge-graph retrieval systems.
-            </p>
-            <p>
-              My professional mission is to build reliable, scalable, and grounded AI agents equipped with tool use, memory, and contextual intelligence. Whether engineering enterprise HR assistants, multimodal diagnostic tools, or automated workflows, I bring analytical precision, clean architecture, and rapid adaptability to modern engineering teams.
+              Currently working as an <strong>Associate AI Developer Intern at LamaxAI Technologies</strong>, I focus on developing AI-powered applications, Retrieval-Augmented Generation (RAG) systems, knowledge-base engineering, semantic retrieval, and AI workflow automation. Previously, as an AI Engineer Intern at Lightrains Technolabs, I contributed to multimodal RAG architectures, document processing, and knowledge-graph-based retrieval systems.
             </p>
           </motion.div>
 
