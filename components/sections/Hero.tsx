@@ -7,10 +7,9 @@ import { Download, ArrowRight, Mail } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const techChips = [
-  "Python", "JavaScript", "FastAPI", "Next.js", "React", "OpenAI", "Gemini AI", 
-  "LangChain", "RAG", "RAGAnything", "LightRAG", "MinerU", "TensorFlow", "PyTorch",
-  "Scikit-learn", "Pandas", "NumPy", "Deep Learning", "Machine Learning", "CNN", "RNN", 
-  "Computer Vision", "NLP", "Generative AI", "Docker", "SQL"
+  "Python", "SQL", "RAG", "LLMs", "LangChain", "Qdrant", "n8n", "Ollama", 
+  "FastAPI", "Django", "LightRAG", "MinerU", "TensorFlow", "Scikit-learn", 
+  "Pandas", "NumPy", "Docker", "Streamlit", "Embeddings", "Prompt Engineering"
 ];
 
 const TypewriterText = ({ text, delay = 0 }: { text: string; delay?: number }) => {
@@ -60,7 +59,7 @@ export function Hero() {
               </h1>
               <div className="min-h-[80px] md:min-h-[40px] text-2xl md:text-3xl font-semibold text-[var(--color-text-body)] dark:text-[var(--color-text-muted)] leading-tight">
                 <span className="text-gradient-gold">
-                  <TypewriterText text="AI Engineer • Data Scientist • Full-Stack Developer" />
+                  <TypewriterText text="AI Engineer • Generative AI & RAG • Machine Learning" />
                 </span>
                 <motion.span 
                   animate={{ opacity: [1, 0] }} 
@@ -71,7 +70,7 @@ export function Hero() {
             </div>
 
             <p className="text-lg md:text-xl text-[var(--color-text-body)] dark:text-[var(--color-text-muted)] max-w-2xl leading-relaxed">
-              Building intelligent AI systems using LLMs, Retrieval-Augmented Generation, Computer Vision, and scalable backend engineering.
+              Building intelligent AI applications using LLMs, Retrieval-Augmented Generation (RAG), vector databases, and automated workflows.
             </p>
 
             <div className="flex flex-wrap items-center gap-4 pt-4">
@@ -82,7 +81,7 @@ export function Hero() {
                 </a>
               </Button>
               <Button asChild variant="secondary" size="lg" className="gap-2">
-                <a href="/resume/Aleena-Varghese-Resume.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="/resume/Aleena__Varghese__CV.pdf" target="_blank" rel="noopener noreferrer">
                   <Download className="h-4 w-4" />
                   Download Resume
                 </a>

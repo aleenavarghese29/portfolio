@@ -1,9 +1,21 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Award, Cloud, BarChart, Code, Building2, ExternalLink } from "lucide-react";
+import { Award, Cloud, BarChart, Code, Building2, ExternalLink, Box } from "lucide-react";
 
 const certifications = [
+  {
+    title: "Docker Foundations Professional Certificate",
+    issuer: "LinkedIn Learning",
+    icon: <Box className="w-6 h-6" />,
+    link: "#",
+  },
+  {
+    title: "Introduction to Large Language Models",
+    issuer: "Google Cloud",
+    icon: <Cloud className="w-6 h-6" />,
+    link: "https://www.cloudskillsboost.google/public_profiles/f70197f3-b664-4fdf-a00e-d877ddf46be9/badges/13617566",
+  },
   {
     title: "Data Analytics Track",
     issuer: "Google Cloud Career Launchpad",
@@ -17,6 +29,18 @@ const certifications = [
     link: "https://www.credly.com/badges/e102830e-96a7-4415-af11-3523583b1f81",
   },
   {
+    title: "Python Data Structures",
+    issuer: "University of Michigan (Coursera)",
+    icon: <Code className="w-6 h-6" />,
+    link: "https://www.coursera.org/account/accomplishments/verify/LF8SGJ24U7HY",
+  },
+  {
+    title: "Introduction to Git and GitHub",
+    issuer: "Google (Coursera)",
+    icon: <Code className="w-6 h-6" />,
+    link: "#",
+  },
+  {
     title: "Data Analytics Job Simulation",
     issuer: "Deloitte",
     icon: <Building2 className="w-6 h-6" />,
@@ -27,24 +51,6 @@ const certifications = [
     issuer: "Tata Group",
     icon: <BarChart className="w-6 h-6" />,
     link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/ifobHAoMjQs9s6bKS/MyXvBcppsW2FkNYCX_ifobHAoMjQs9s6bKS_TXGsbeNgLBWvcaXPT_1739630769972_completion_certificate.pdf",
-  },
-  {
-    title: "Python Data Structures",
-    issuer: "University of Michigan",
-    icon: <Code className="w-6 h-6" />,
-    link: "https://www.coursera.org/account/accomplishments/verify/LF8SGJ24U7HY",
-  },
-  {
-    title: "Introduction to Large Language Models",
-    issuer: "Google Cloud",
-    icon: <Cloud className="w-6 h-6" />,
-    link: "https://www.cloudskillsboost.google/public_profiles/f70197f3-b664-4fdf-a00e-d877ddf46be9/badges/13617566",
-  },
-  {
-    title: "Introduction to Git and GitHub",
-    issuer: "Google (Coursera)",
-    icon: <Code className="w-6 h-6" />,
-    link: "#",
   },
 ];
 

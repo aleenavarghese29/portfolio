@@ -17,21 +17,21 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Aleena Varghese | AI Engineer & Developer",
-  description: "Portfolio of Aleena Varghese, AI Engineer specializing in Generative AI, RAG, LLMs, Computer Vision, and Full-Stack Development.",
-  keywords: ["AI Engineer", "Machine Learning", "Generative AI", "RAG", "LLMs", "FastAPI", "Next.js", "Python", "Data Scientist", "Aleena Varghese", "Portfolio"],
+  title: "Aleena Varghese | AI Engineer & Generative AI Specialist",
+  description: "Portfolio of Aleena Varghese, AI Engineer specializing in Generative AI, RAG architectures, LLMs, Vector Databases, and intelligent automation.",
+  keywords: ["AI Engineer", "Generative AI Engineer", "Machine Learning Engineer", "LLM Engineer", "RAG Engineer", "Data Scientist", "Python Developer", "Qdrant", "n8n", "LangChain", "LightRAG", "Aleena Varghese", "Portfolio"],
   authors: [{ name: "Aleena Varghese" }],
   creator: "Aleena Varghese",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://aleenavarghese.vercel.app", // Placeholder, will update on deployment
-    title: "Aleena Varghese | AI Engineer & Developer",
-    description: "Portfolio of Aleena Varghese, AI Engineer specializing in Generative AI, RAG, LLMs, and Full-Stack Development.",
+    url: "https://portfolio-lake-one-10.vercel.app",
+    title: "Aleena Varghese | AI Engineer & Generative AI Specialist",
+    description: "Portfolio of Aleena Varghese, AI Engineer specializing in Generative AI, RAG architectures, LLMs, Vector Databases, and intelligent automation.",
     siteName: "Aleena Varghese Portfolio",
     images: [
       {
-        url: "/projects/diagnostic_assistant.jpg", // Using one of the beautiful project images as OG image
+        url: "/projects/diagnostic_assistant.jpg",
         width: 1200,
         height: 630,
         alt: "Aleena Varghese Portfolio Preview",
@@ -40,8 +40,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Aleena Varghese | AI Engineer & Developer",
-    description: "Portfolio of Aleena Varghese, AI Engineer specializing in Generative AI, RAG, LLMs, and Full-Stack Development.",
+    title: "Aleena Varghese | AI Engineer & Generative AI Specialist",
+    description: "Portfolio of Aleena Varghese, AI Engineer specializing in Generative AI, RAG architectures, LLMs, and intelligent automation.",
     images: ["/projects/diagnostic_assistant.jpg"],
   },
 };

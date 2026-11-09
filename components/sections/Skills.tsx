@@ -2,63 +2,38 @@
 
 import { motion } from "framer-motion";
 import { Badge } from "@/components/ui/badge";
-import { Code2, BrainCircuit, Layers, Wrench, Database } from "lucide-react";
+import { Code2, BrainCircuit, Layers, Wrench, BarChart3 } from "lucide-react";
 
 const skillCategories = [
   {
     title: "Programming",
     icon: <Code2 className="w-6 h-6" />,
-    skills: [
-      { name: "Python", level: 95 },
-      { name: "SQL", level: 85 },
-      { name: "JavaScript", level: 80 },
-    ],
+    description: "Core scripting, automation, and relational database queries",
+    skills: ["Python", "SQL"],
   },
   {
-    title: "AI & Machine Learning",
+    title: "Generative AI",
     icon: <BrainCircuit className="w-6 h-6" />,
-    skills: [
-      { name: "Generative AI & LLMs", level: 90 },
-      { name: "RAG", level: 95 },
-      { name: "Computer Vision (CNN, SVM)", level: 85 },
-      { name: "Deep Learning", level: 85 },
-      { name: "NLP", level: 80 },
-    ],
+    description: "LLM orchestration, RAG pipelines, and intelligent assistant design",
+    skills: ["LLMs", "RAG", "Prompt Engineering", "Embeddings", "Vector Databases", "AI Chatbots"],
   },
   {
-    title: "Frameworks & Libraries",
+    title: "Data Science & Machine Learning",
     icon: <Layers className="w-6 h-6" />,
-    skills: [
-      { name: "FastAPI", level: 90 },
-      { name: "Django", level: 85 },
-      { name: "Next.js & React", level: 85 },
-      { name: "TensorFlow & Keras", level: 85 },
-      { name: "OpenCV", level: 80 },
-      { name: "Scikit-learn, NumPy, Pandas", level: 90 },
-    ],
+    description: "Predictive modeling, deep learning architectures, and data engineering",
+    skills: ["Pandas", "NumPy", "Scikit-learn", "TensorFlow", "Keras", "Machine Learning", "Data Analysis", "Data Visualization"],
   },
   {
-    title: "GenAI & Tools",
+    title: "Frameworks & Tools",
     icon: <Wrench className="w-6 h-6" />,
-    skills: [
-      { name: "OpenAI API", level: 95 },
-      { name: "Google Gemini AI", level: 90 },
-      { name: "Groq Llama 3.3", level: 90 },
-      { name: "LightRAG", level: 85 },
-      { name: "RagAnything", level: 85 },
-      { name: "MinerU", level: 85 },
-      { name: "PydanticAI", level: 80 },
-    ],
+    description: "Development environments, workflow automation, and containerization",
+    skills: ["Streamlit", "n8n", "Qdrant", "Ollama", "Docker", "Git", "GitHub", "VS Code"],
   },
   {
-    title: "Databases & Storage",
-    icon: <Database className="w-6 h-6" />,
-    skills: [
-      { name: "PostgreSQL", level: 85 },
-      { name: "Vector Databases", level: 90 },
-      { name: "Knowledge Graphs", level: 85 },
-      { name: "SQLite", level: 80 },
-    ],
+    title: "Data Visualization",
+    icon: <BarChart3 className="w-6 h-6" />,
+    description: "Statistical data plotting and exploratory visual storytelling",
+    skills: ["Matplotlib", "Seaborn"],
   },
 ];
 
@@ -78,6 +53,9 @@ export function Skills() {
           <h3 className="text-3xl md:text-5xl font-bold text-[var(--color-text-heading)] dark:text-white mb-6">
             Technical Skills
           </h3>
+          <p className="text-[var(--color-text-muted)] text-base md:text-lg">
+            Structured into specialized competencies supported by hands-on development and industry experience.
+          </p>
         </motion.div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -88,36 +66,34 @@ export function Skills() {
               whileInView={{ opacity: 1, scale: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="bg-[var(--color-card-light)] dark:bg-[var(--color-card-dark)] rounded-3xl p-8 border border-[var(--color-border-default)] dark:border-[var(--color-border-dark)] shadow-soft hover:shadow-hover hover:border-[var(--color-accent-primary)]/50 transition-all duration-300"
+              className="bg-[var(--color-card-light)] dark:bg-[var(--color-card-dark)] rounded-3xl p-8 border border-[var(--color-border-default)] dark:border-[var(--color-border-dark)] shadow-soft hover:shadow-hover hover:border-[var(--color-accent-primary)]/50 transition-all duration-300 flex flex-col"
             >
-              <div className="flex items-center gap-4 mb-6">
-                <div className="p-3 rounded-2xl bg-[var(--color-bg-ivory)] dark:bg-[var(--color-bg-dark)] text-[var(--color-accent-primary)] border border-[var(--color-border-default)] dark:border-[var(--color-border-dark)]">
+              <div className="flex items-center gap-4 mb-4">
+                <div className="p-3 rounded-2xl bg-[var(--color-bg-ivory)] dark:bg-[var(--color-bg-dark)] text-[var(--color-accent-primary)] border border-[var(--color-border-default)] dark:border-[var(--color-border-dark)] shadow-sm">
                   {category.icon}
                 </div>
-                <h4 className="text-xl font-bold text-[var(--color-text-heading)] dark:text-white">
-                  {category.title}
-                </h4>
+                <div>
+                  <h4 className="text-xl font-bold text-[var(--color-text-heading)] dark:text-white">
+                    {category.title}
+                  </h4>
+                  <span className="text-xs text-[var(--color-accent-primary)] font-medium">
+                    {category.skills.length} competencies
+                  </span>
+                </div>
               </div>
 
-              <div className="space-y-5">
-                {category.skills.map((skill, i) => (
-                  <div key={skill.name}>
-                    <div className="flex justify-between items-center mb-2">
-                      <span className="text-sm font-medium text-[var(--color-text-body)] dark:text-[var(--color-text-light)]">
-                        {skill.name}
-                      </span>
-                      <span className="text-xs text-[var(--color-text-muted)]">{skill.level}%</span>
-                    </div>
-                    <div className="h-2 w-full bg-[var(--color-bg-linen)] dark:bg-[#1A1917] rounded-full overflow-hidden">
-                      <motion.div
-                        initial={{ width: 0 }}
-                        whileInView={{ width: `${skill.level}%` }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 1, delay: 0.2 + (i * 0.1), ease: "easeOut" }}
-                        className="h-full bg-gradient-to-r from-[var(--color-accent-primary)] to-[var(--color-accent-secondary)] rounded-full"
-                      />
-                    </div>
-                  </div>
+              <p className="text-sm text-[var(--color-text-muted)] mb-6">
+                {category.description}
+              </p>
+
+              <div className="flex flex-wrap gap-2.5 mt-auto">
+                {category.skills.map((skill) => (
+                  <span
+                    key={skill}
+                    className="px-3 py-1.5 rounded-xl text-xs md:text-sm font-medium bg-[var(--color-bg-ivory)] dark:bg-[var(--color-bg-dark)] text-[var(--color-text-body)] dark:text-[var(--color-text-light)] border border-[var(--color-border-default)] dark:border-[var(--color-border-dark)] hover:border-[var(--color-accent-primary)] hover:text-[var(--color-accent-primary)] dark:hover:border-[var(--color-accent-primary)] transition-all duration-200 shadow-sm"
+                  >
+                    {skill}
+                  </span>
                 ))}
               </div>
             </motion.div>

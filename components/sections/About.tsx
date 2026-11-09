@@ -4,10 +4,10 @@ import { motion, useInView } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
 
 const stats = [
-  { label: "AI Projects Built", value: 12, suffix: "+" },
-  { label: "Months Internship Experience", value: 3, suffix: "" },
+  { label: "AI Projects Built", value: 10, suffix: "+" },
+  { label: "Industry Experience", value: 6, suffix: "+ Mos" },
   { label: "CGPA (M.Sc.)", value: 9.12, suffix: "" },
-  { label: "AI Certifications", value: 7, suffix: "+" },
+  { label: "Certifications", value: 7, suffix: "+" },
 ];
 
 function AnimatedCounter({ value, suffix }: { value: number; suffix: string }) {
@@ -72,13 +72,13 @@ export function About() {
             className="space-y-6 text-lg text-[var(--color-text-body)] dark:text-[var(--color-text-muted)] leading-relaxed"
           >
             <p>
-              My journey into artificial intelligence began with a deep fascination for how machines can learn from data to solve complex, real-world problems. As an <strong>M.Sc. in Computer Science (Data Analytics)</strong>  graduate from Digital University Kerala, I am dedicated to pushing the boundaries of what&apos;s possible with modern AI architectures.
+              My path into artificial intelligence unites mathematical analytical foundations with applied software engineering. Having graduated with a <strong>B.Sc. in Mathematics</strong> from Mar Ivanios College and currently pursuing an <strong>M.Sc. in Computer Science (Data Analytics)</strong> at Digital University Kerala (CGPA 9.12), I transform complex data and research into dependable AI solutions.
             </p>
             <p>
-              I specialize in <strong>Generative AI, Large Language Models (LLMs), and Computer Vision</strong>. My recent work focuses heavily on building robust <strong>Retrieval-Augmented Generation (RAG)</strong> pipelines, deploying Vision-Language Models, and orchestrating multi-agent systems to create highly capable AI assistants.
+              Currently working as an <strong>Associate AI Developer</strong> at LamaxAI Technologies, I specialize in <strong>Retrieval-Augmented Generation (RAG)</strong>, vector database integration with <strong>Qdrant</strong>, knowledge-base structuring, and AI workflow automation with <strong>n8n</strong>. Previously, as an AI Engineer Intern at Lightrains Technolabs, I contributed to multimodal RAG architectures and knowledge-graph retrieval systems.
             </p>
             <p>
-              I am driven by a singular career goal: to engineer intelligent, scalable, and responsible AI applications that deliver tangible value. Whether it&apos;s crafting an automated HR orchestration system or a diagnostic medical assistant, I approach every problem with a blend of analytical rigor and creative problem-solving.
+              My professional mission is to build reliable, scalable, and grounded AI agents equipped with tool use, memory, and contextual intelligence. Whether engineering enterprise HR assistants, multimodal diagnostic tools, or automated workflows, I bring analytical precision, clean architecture, and rapid adaptability to modern engineering teams.
             </p>
           </motion.div>
 
